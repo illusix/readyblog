@@ -1,0 +1,196 @@
+body {
+    height: 100%;
+    min-height: 0;
+}
+.panel {
+    border: none;
+}
+.panel-title {
+    font-size: 14px;
+}
+.container {
+    width: 1000px;
+    max-width: 1000px;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.default-box {
+    width: 1000px;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background: #e9e9e9;
+}
+.header, .footer {
+    background: #fafafa;
+    height: 50px;
+    line-height: 50px;
+}
+.footer {
+    margin-top: -28px;
+}
+.header {
+    margin-bottom: 25px; 
+}
+.clear {
+    clear: both;
+}
+.copyright {
+    text-align: center;
+    font-size: 14px;
+}
+.header .menu {
+    list-style: none;
+}
+.header .menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.logo {
+    width: 320px;
+    height: 36px;
+    display: inline-block;
+    background: url('../img/logo.png') no-repeat;
+    margin: 10px 0 0 20px;
+}
+.header .menu li a {
+    font-size: 16px;
+    color: #707070;
+    text-decoration: none;
+}
+.header .menu li a:hover {
+    color: #25a0e0;
+}
+#content {
+    padding-top: 5px;
+}
+#content .panel .panel-body.accesser {
+    height: 220px;
+    overflow-y: auto;
+}
+    .panel-body.accesser p {
+        color: #000000;
+        font-size: 18px;
+        line-height: 20px;
+        font-family: myriad pro;
+    }
+    .panel-body.accesser span.find_btn {
+        display: inline-block;
+        background: #74CA67;
+        padding: 5px 8px;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    .panel-body.accesser span.find_btn:hover {
+        background-color: #64ba57;
+    }
+#logout {
+    color: #595959;
+    float: right;
+    line-height: 14px;
+    animation: none;
+    padding: 0;
+    margin-bottom: 5px;
+}
+    #logout:hover {
+        text-decoration: none;
+        color: #6f6f6f;
+    }
+.swiper-container{width:100%;height:300px;margin-left:auto;margin-right:auto;}.swiper-slide{background-size:cover;background-position:center;}.gallery-top{height:80%;width:100%;}.gallery-thumbs{height:20%;box-sizing:border-box;padding:10px 0;}.gallery-thumbs .swiper-slide{width:25%;height:100%;opacity:0.4;}.gallery-thumbs .swiper-slide-active{opacity:1;}
+
+.filters_block .control-label {
+    padding-right: 0;
+}
+.panel-controls {
+    cursor: pointer;
+    display: block;
+    float: right;
+}
+
+.panel-controls > a {
+    color: #999;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 0.7;
+    padding-top: 1px;
+    text-align: center;
+    width: 30px;
+}
+.panel-controls > a::after {
+    font-family: "FontAwesome";
+}
+.panel-control-remove:after {
+  content: "\f00d";
+  /* fa-remove */
+}
+.panel-controls > a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+.panel-controls > a:focus {
+  text-decoration: none;
+}
+.fl-right {
+    float:right !important;
+}
+.blog-list .panel-body img{
+    margin-bottom: 15px;
+}
+.blog-categories .panel-body > ul {
+    list-style: none;
+}
+.blog-categories .panel-body > ul li {
+    margin-bottom: 10px;
+}
+.blog-categories .panel-body > ul li a {
+    color: #666666;
+    font-size: 15px;
+}
+.info-box {
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.info-box span {
+    padding-right: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    border-right: 1px solid #666;
+    line-height: 13px;
+}
+.related ul{
+    padding: 0;
+}
+.related .post-name {
+    margin-bottom: 15px;
+    display: block;
+    font-weight: bold;
+}
+.related ul li img {
+    margin-bottom: 5px;
+}
+.related ul li .info-box {
+    float: left;
+    line-height: 25px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.pagination-block {
+    text-align: center;
+}
+.pagination-block .pagination > li > a:hover, .pagination-block .pagination > li > span:hover, .pagination-block .pagination > li > a:focus, .pagination-block .pagination > li > span:focus, .pagination-block .pagination > li.active > a{
+    background-color: #56c046;
+    color: #fff;
+    border-color: #56c046;
+}
+p {
+    font-size: 14px;
+    line-height: 160%;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,13 @@
+AuthType Basic
+AuthName "Blog Auth"
+AuthUserFile /home/driver/blog.ready.wiki/htdocs/.htpasswd
+Require valid-user
+Order allow,deny
+Allow from all
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?_url=/$1 [QSA,L]
+</IfModule>
